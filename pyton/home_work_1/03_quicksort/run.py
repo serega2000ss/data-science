@@ -4,11 +4,6 @@ import random
 import csv
 
 def main(start=10, step=10, count=2000):
-  #n = 10
-  #data_set = [random.randint(1,n) for i in range(n)]
-  #print(*data_set)
-  #quickSort(data_set)
-  #print(*data_set)
   with open('quicksort.csv', mode='w') as csv_file:
     fieldnames = ['items_coutn', 'time_to_run']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)

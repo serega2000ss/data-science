@@ -1,4 +1,4 @@
-set title 'Insertion Sort'
+set title 'QuickSort'
 set ylabel 'Time'
 set xlabel 'Size'
 set grid
